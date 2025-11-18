@@ -1,0 +1,45 @@
+/* Basic font and body spacing */
+body {
+  font-family: Poppins, "Segoe UI", Roboto, Arial, sans-serif;
+  padding-top: 70px; /* space for fixed navbar */
+  background-image: url(https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSM7cOwcE0JvmOHpA3x8zU2lpO00B6hJyuPSjeuPYAgCe7VCMCfN05m2zed9dR3vCriMl6CAxdLwK-fimmVPflcjWOrz3D-)
+    center/cover no-repeat fixed;
+}
+
+/* HERO background and styling */
+.hero {
+  background: url("https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&w=1350&q=80")
+    center/cover no-repeat;
+  height: 85vh;
+  display: flex;
+  align-items: center;
+  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Heading sizes in hero */
+.hero h1 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+/* Small card hover for amenities */
+.amenity-box {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.amenity-box:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
+}
+
+/* Pricing card hover effect */
+.pricing-card {
+  transition: transform 0.25s ease;
+}
+.pricing-card:hover {
+  transform: scale(1.03);
+}
+
+/* Make footer slightly muted */
+footer {
+  background: #111;
+}

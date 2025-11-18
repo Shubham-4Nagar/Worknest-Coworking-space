@@ -1,11 +1,205 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Worknest-coworking-spaces</title>
-</head>
-<body>
-    <h1>Worknest Coworking spaces</h1>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Worknest Coworking Space</title>
+
+    <!-- Bootstrap CSS (CDN) -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Your external CSS -->
+    <link href="styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="#">Worknest Space</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navMenu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navMenu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#amenities">Amenities</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#pricing">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- HERO -->
+    <section class="hero d-flex align-items-center text-white">
+      <div class="container text-center">
+        <h1>Worknest Coworking Space</h1>
+        <p class="lead">
+          Premium office space in Gurgaon Cyber City | Flexible | Modern |
+          Ready-to-Move
+        </p>
+        <a href="#pricing" class="btn btn-primary btn-lg mt-3"
+          >Explore Pricing</a
+        >
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="py-5">
+      <div class="container">
+        <div class="text-center mb-4">
+          <h2 class="fw-bold">About Worknest</h2>
+          <p class="text-muted">
+            A modern coworking space designed for productivity, collaboration,
+            and growth.
+          </p>
+        </div>
+        <p class="text-center fs-5 px-3">
+          Worknest in Gurgaon’s DLF Cyber City offers premium office facilities:
+          high-speed internet, conference rooms, private cabins, and a vibrant
+          work environment.
+        </p>
+      </div>
+    </section>
+
+    <!-- AMENITIES -->
+    <section id="amenities" class="py-5 bg-light">
+      <div class="container">
+        <div class="text-center mb-5">
+          <h2 class="fw-bold">Amenities</h2>
+          <p class="text-muted">Everything your business needs to thrive</p>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div class="p-4 bg-white rounded shadow-sm amenity-box">
+              <h5>High-Speed Internet</h5>
+              <p>Fast & reliable internet for seamless workflow</p>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="p-4 bg-white rounded shadow-sm amenity-box">
+              <h5>Conference Rooms</h5>
+              <p>Professional meeting rooms with AV setup</p>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="p-4 bg-white rounded shadow-sm amenity-box">
+              <h5>Private Cabins</h5>
+              <p>Dedicated offices for teams and companies</p>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="p-4 bg-white rounded shadow-sm amenity-box">
+              <h5>24x7 Access</h5>
+              <p>Work anytime with secure biometric entry</p>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="p-4 bg-white rounded shadow-sm amenity-box">
+              <h5>Café & Lounge</h5>
+              <p>Relaxing spaces and fresh refreshments</p>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="p-4 bg-white rounded shadow-sm amenity-box">
+              <h5>Dedicated Parking</h5>
+              <p>Safe and secure parking facility</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRICING -->
+    <section id="pricing" class="py-5">
+      <div class="container">
+        <div class="text-center mb-5">
+          <h2 class="fw-bold">Pricing Plans</h2>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div class="card pricing-card p-3 shadow-sm">
+              <h5 class="text-center">Hot Desk</h5>
+              <h2 class="text-center text-primary">₹7,000/mo</h2>
+              <p class="text-center">Flexible seating</p>
+              <ul>
+                <li>High-speed internet</li>
+                <li>Common area access</li>
+                <li>Free tea/coffee</li>
+              </ul>
+              <a href="#" class="btn btn-primary">Book Now</a>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card pricing-card p-3 shadow-sm">
+              <h5 class="text-center">Dedicated Desk</h5>
+              <h2 class="text-center text-primary">₹10,000/mo</h2>
+              <ul>
+                <li>Personal desk</li>
+                <li>Lockable storage</li>
+                <li>Meeting room access</li>
+              </ul>
+              <a href="#" class="btn btn-primary">Book Now</a>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card pricing-card p-3 shadow-sm">
+              <h5 class="text-center">Private Cabin</h5>
+              <h2 class="text-center text-primary">₹25,000/mo</h2>
+              <ul>
+                <li>Secure cabin</li>
+                <li>Dedicated support</li>
+                <li>Full facility access</li>
+              </ul>
+              <a href="#" class="btn btn-primary">Book Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="py-5 bg-dark text-white">
+      <div class="container text-center">
+        <h2 class="fw-bold">Contact Us</h2>
+        <p class="mt-3">DLF Cyber City, Gurgaon | +91 9876543928</p>
+        <a href="mailto:info@worknest.com" class="btn btn-outline-light"
+          >Email Us</a
+        >
+      </div>
+    </section>
+
+    <footer class="bg-black text-center text-white py-3">
+      © 2025 Worknest Coworking Space | Designed by Shubham
+    </footer>
+
+    <!-- Bootstrap JS (CDN) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
 </html>
